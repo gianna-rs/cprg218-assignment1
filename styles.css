@@ -2,8 +2,18 @@
   box-sizing: border-box;
 }
 
-header {
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
   background-color: #120323;
+  text-align: center;
 }
 
 h1 {
@@ -13,6 +23,7 @@ h1 {
 h2 {
   color: #120323;
 }
+
 aside {
   background-color: #97bf04;
 }
