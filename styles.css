@@ -25,6 +25,12 @@ body {
 figure {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
 }
 
 figure img {
@@ -49,20 +55,14 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-  }
-
-  .header-container img {
-    margin: 0 1rem;
+    gap: 1rem;
   }
 
   figure {
     flex-direction: row;
-    /* justify-content: space-between; */
-    align-items: center;
+    align-items: flex-start;
   }
-  figcaption {
-    padding: 1rem;
-  }
+
   figure img {
     max-width: 300px;
   }
@@ -71,5 +71,13 @@ footer {
 @media screen and (min-width: 1000px) {
   #container {
     flex-direction: row;
+  }
+
+  main {
+    flex: 3;
+  }
+
+  aside {
+    flex: 1;
   }
 }
